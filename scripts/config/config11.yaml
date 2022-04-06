@@ -1,0 +1,21 @@
+# vocal beat tracking training params Time: 
+sample_rate : 16000
+hop_length : 0.02
+seq_len : 8
+iterations : 10000
+checkpoints : 10000
+batch_size : 10 
+learning_rate : 0.00005
+gpu_id : 0
+seed : 0
+num_workers_train : 5
+num_workers_val : 0
+num_workers_test : 0
+model_type : 'base+'
+n_layers : 1
+n_heads : 4
+query_dimensions : 192
+value_dimensions : 192
+feed_forward_dimensions : 2048
+estimator: 'DBN'
+dataproc : ['wavlm']
