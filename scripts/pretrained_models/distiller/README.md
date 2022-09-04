@@ -1,5 +1,8 @@
 # Distiller (DistilHuBERT)
 
+! Pease have the pre-trained "disilhubert_ls960_4-8-12.ckpt" file in this directory.
+
+
 ## Intro
 This is the official implementation of [DistilHuBERT](https://arxiv.org/abs/2110.01900). Although the we only distilled represenations from HuBERT Base, the pretraining [code](../../pretrain/README.md) can learn from other SSL models.
 
